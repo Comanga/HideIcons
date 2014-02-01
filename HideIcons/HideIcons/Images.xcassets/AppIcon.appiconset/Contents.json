@@ -27,19 +27,19 @@
     {
       "size" : "128x128",
       "idiom" : "mac",
-      "filename" : "HideIcons128128.png",
+      "filename" : "HideIcons128128-2.png",
       "scale" : "1x"
     },
     {
       "size" : "128x128",
       "idiom" : "mac",
-      "filename" : "HideIcons256256.png",
+      "filename" : "HideIcons256256-2.png",
       "scale" : "2x"
     },
     {
       "size" : "256x256",
       "idiom" : "mac",
-      "filename" : "HideIcons256256-1.png",
+      "filename" : "HideIcons256256-2-1.png",
       "scale" : "1x"
     },
     {

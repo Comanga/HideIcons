@@ -649,25 +649,77 @@
         <customObject id="494" customClass="AppDelegate">
             <connections>
                 <outlet property="cleanButton" destination="ucO-g9-LEj" id="1s2-ge-8GO"/>
+                <outlet property="cleanByButton" destination="C1W-f7-qwP" id="eQN-Zh-R7g"/>
                 <outlet property="hideButton" destination="cD1-g6-73a" id="kOa-7o-rIM"/>
+                <outlet property="showHiddenFilesButton" destination="sET-Nh-qat" id="a6T-u5-2kT"/>
                 <outlet property="statusMenu" destination="X8n-Ye-Rh2" id="oa2-gI-qhh"/>
             </connections>
         </customObject>
         <customObject id="420" customClass="NSFontManager"/>
-        <menu id="X8n-Ye-Rh2">
+        <menu autoenablesItems="NO" id="X8n-Ye-Rh2">
             <items>
-                <menuItem title="Hide desktop icons" id="cD1-g6-73a">
+                <menuItem title="Hide Desktop Icons" id="cD1-g6-73a">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="hideAndUnhideDesktop:" target="494" id="fJX-jm-zoR"/>
                     </connections>
                 </menuItem>
-                <menuItem title="Clean up Desktop" id="ucO-g9-LEj">
+                <menuItem title="Show Hidden Files" id="sET-Nh-qat">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="hideAndShowHiddenFiles:" target="494" id="aCb-kX-Pp2"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Clean Up Desktop" id="ucO-g9-LEj">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="cleanDesktop:" target="494" id="ioj-Qd-AP3"/>
                     </connections>
                 </menuItem>
+                <menuItem title="Clean Up By" id="C1W-f7-qwP">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Clean Up By" id="5i3-44-4yD">
+                        <items>
+                            <menuItem title="Name" id="qOI-4h-Khg">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="cleanDesktopByName:" target="494" id="Wph-lC-y7D"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Kind" id="RaL-7w-SCg">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="cleanDesktopByKind:" target="494" id="ejc-oo-XWA"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Date Modified" id="G57-RZ-g20">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="cleanDesktopByDateModified:" target="494" id="QZb-pd-Bq4"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Date Created" id="Hwn-Pi-rn6">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="cleanDesktopByDateCreated:" target="494" id="gdN-uH-ora"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Size" id="plq-nn-Y5E">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="cleanDesktopBySize:" target="494" id="kOF-7j-iLc"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Tags" id="Nek-vr-nBl">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="cleanDesktopByTags:" target="494" id="E56-6A-NMj"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="LSE-gl-e8H"/>
                 <menuItem title="Quit" id="dU8-jL-i0c">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
