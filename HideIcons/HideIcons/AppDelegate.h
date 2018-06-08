@@ -8,14 +8,12 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
-{
-    NSStatusItem    *_statusItem;
-    NSImage         *_statusImage;
-    NSImage         *_statusImageHighlight;
-    
-    BOOL            _isHidden;
-    BOOL            _filesHidden;
+@interface AppDelegate: NSObject <NSApplicationDelegate> {
+    NSStatusItem *_statusItem;
+    NSImage *_statusImage;
+    NSImage *_statusImageHighlight;
+    BOOL _isHidden;
+    BOOL _filesHidden;
 }
 
 @property (weak) IBOutlet NSMenu *statusMenu;
@@ -24,7 +22,7 @@
 @property (weak) IBOutlet NSMenuItem *cleanByButton;
 @property (weak) IBOutlet NSMenuItem *showHiddenFilesButton;
 
-- (IBAction)hideAndUnhideDesktop:(id)sender;
+- (IBAction)toggleDesktop:(id)sender;
 - (IBAction)cleanDesktop:(id)sender;
 - (IBAction)hideAndShowHiddenFiles:(id)sender;
 - (IBAction)cleanDesktopByName:(id)sender;

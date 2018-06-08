@@ -16,11 +16,14 @@ Enjoy ;-) !
 
 ============
 
-Version 1.1 : New features
+Version 1.2:
+- Update logo for retina display (white and black status bar handled)
+
+Version 1.1: New features
 - Possibility to clean up by name, kind, date modified, date created, size and tags.
 - Possibility to hide and show hidden files and folders
 - Update logo
 
-Version 1.0 :
+Version 1.0:
 - Possibility to hide and how desktop icons
 - Possibility to make a simple clean up on desktop icons

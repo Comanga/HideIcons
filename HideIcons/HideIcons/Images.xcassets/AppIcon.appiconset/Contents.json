@@ -3,58 +3,61 @@
     {
       "size" : "16x16",
       "idiom" : "mac",
-      "filename" : "HideIcons1616.png",
+      "filename" : "bg-16.png",
       "scale" : "1x"
     },
     {
       "size" : "16x16",
       "idiom" : "mac",
-      "filename" : "HideIcons3232.png.png",
+      "filename" : "bg-32.png",
       "scale" : "2x"
     },
     {
       "size" : "32x32",
       "idiom" : "mac",
-      "filename" : "HideIcons3232.png-1.png",
+      "filename" : "bg-33.png",
       "scale" : "1x"
     },
     {
       "size" : "32x32",
       "idiom" : "mac",
-      "filename" : "HideIcons6464.png",
+      "filename" : "bg-64.png",
       "scale" : "2x"
     },
     {
       "size" : "128x128",
       "idiom" : "mac",
-      "filename" : "HideIcons128128-2.png",
+      "filename" : "bg-128.png",
       "scale" : "1x"
     },
     {
       "size" : "128x128",
       "idiom" : "mac",
-      "filename" : "HideIcons256256-2.png",
+      "filename" : "bg-256.png",
       "scale" : "2x"
     },
     {
       "size" : "256x256",
       "idiom" : "mac",
-      "filename" : "HideIcons256256-2-1.png",
+      "filename" : "bg-257.png",
       "scale" : "1x"
     },
     {
-      "idiom" : "mac",
       "size" : "256x256",
+      "idiom" : "mac",
+      "filename" : "bg-512.png",
       "scale" : "2x"
     },
     {
-      "idiom" : "mac",
       "size" : "512x512",
+      "idiom" : "mac",
+      "filename" : "bg-513.png",
       "scale" : "1x"
     },
     {
-      "idiom" : "mac",
       "size" : "512x512",
+      "idiom" : "mac",
+      "filename" : "bg-1024.png",
       "scale" : "2x"
     }
   ],

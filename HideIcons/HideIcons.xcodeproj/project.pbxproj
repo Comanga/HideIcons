@@ -18,8 +18,6 @@
 		191E99A5189AD1700026B1B6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 191E9984189AD1700026B1B6 /* Cocoa.framework */; };
 		191E99AD189AD1700026B1B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 191E99AB189AD1700026B1B6 /* InfoPlist.strings */; };
 		191E99AF189AD1700026B1B6 /* HideIconsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 191E99AE189AD1700026B1B6 /* HideIconsTests.m */; };
-		197FB699189AE58B006CE37D /* hideIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 197FB697189AE58B006CE37D /* hideIcon.png */; };
-		197FB69C189AE5F1006CE37D /* unhideIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 197FB69B189AE5F1006CE37D /* unhideIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +50,6 @@
 		191E99AA189AD1700026B1B6 /* HideIconsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HideIconsTests-Info.plist"; sourceTree = "<group>"; };
 		191E99AC189AD1700026B1B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		191E99AE189AD1700026B1B6 /* HideIconsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HideIconsTests.m; sourceTree = "<group>"; };
-		197FB697189AE58B006CE37D /* hideIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hideIcon.png; sourceTree = "<group>"; };
-		197FB69B189AE5F1006CE37D /* unhideIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unhideIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,8 +127,6 @@
 		191E998B189AD1700026B1B6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				197FB697189AE58B006CE37D /* hideIcon.png */,
-				197FB69B189AE5F1006CE37D /* unhideIcon.png */,
 				191E998C189AD1700026B1B6 /* HideIcons-Info.plist */,
 				191E998D189AD1700026B1B6 /* InfoPlist.strings */,
 				191E9990189AD1700026B1B6 /* main.m */,
@@ -204,7 +198,7 @@
 		191E9979189AD1700026B1B6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Larroque;
 				TargetAttributes = {
 					191E99A1189AD1700026B1B6 = {
@@ -238,8 +232,6 @@
 			files = (
 				191E998F189AD1700026B1B6 /* InfoPlist.strings in Resources */,
 				191E999D189AD1700026B1B6 /* Images.xcassets in Resources */,
-				197FB699189AE58B006CE37D /* hideIcon.png in Resources */,
-				197FB69C189AE5F1006CE37D /* unhideIcon.png in Resources */,
 				191E9995189AD1700026B1B6 /* Credits.rtf in Resources */,
 				191E999B189AD1700026B1B6 /* MainMenu.xib in Resources */,
 			);
@@ -326,18 +318,32 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -363,19 +369,32 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -395,6 +414,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HideIcons/HideIcons-Prefix.pch";
 				INFOPLIST_FILE = "HideIcons/HideIcons-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hideicons.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -408,6 +428,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HideIcons/HideIcons-Prefix.pch";
 				INFOPLIST_FILE = "HideIcons/HideIcons-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hideicons.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -429,6 +450,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "HideIconsTests/HideIconsTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hideicons.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -447,6 +469,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HideIcons/HideIcons-Prefix.pch";
 				INFOPLIST_FILE = "HideIconsTests/HideIconsTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hideicons.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
